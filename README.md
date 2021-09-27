@@ -18,8 +18,8 @@
 
 ### The folder structure of the project is as follows - ###
 
--	`Phase - 1` - contains the smart contract file `KYC.sol`
--	`Phase - 2` - contains 2 folders 
+-	`Phase - 2` - contains the smart contract file `KYC.sol`
+-	`Phase - 3` - contains 2 folders 
 					1. kyc-ethereum-network 2. kyc-truffle-project
 -	`kyc-ethereum-network` - contains the genesis block creation details for the network.
 -	`kyc-truffle-project` - contains the migration scripts, smart contracts and network configuration file(`truffle-config.js`).
@@ -51,13 +51,13 @@ The above command will generate the datadir folder.
 
 >	personal.newAccount("admin")
 
->	personal.newAccount("HDFC")
+>	personal.newAccount("chase")
 
->	personal.newAccount("IDFC")
+>	personal.newAccount("wells fargo")
 
->	personal.newAccount("DBS")
+>	personal.newAccount("suntrust")
 
->	personal.newAccount("KOTAK")
+>	personal.newAccount("pnc")
 
 When the mining starts we need to unlock the accounts.
 
